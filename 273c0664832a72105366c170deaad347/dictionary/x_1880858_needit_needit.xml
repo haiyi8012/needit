@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7f40566c832a72105366c170deaad3d2" label="NeedIt" max_length="40" name="x_1880858_needit_needit" type="collection">
+        <element label="Needed for" max_length="32" name="needed_for" reference="sys_user" type="reference"/>
+        <element label="Other description" max_length="40" name="other_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="When needed" max_length="40" name="when_needed" type="glide_date_time"/>
+        <element label="What needed" max_length="40" name="what_needed" type="string"/>
+        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Fulfilled" sequence="3" value="fulfilled"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <element choice="1" label="Request type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="hardware"/>
+                <element inactive_on_update="false" label="Software" sequence="1" value="software"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="needed_for"/>
+        </index>
+    </element>
+</database>
