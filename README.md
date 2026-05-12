@@ -35,5 +35,16 @@
 ・Day 1 — 平台基础 & 导航（UI / Lists / Forms）
 　ー平台导航（Platform Navigation） 的核心概念
  ⓵平台整体结构（Platform UI）：横幅区（Banner Frame）、代理操作（Impersonate）、应用导航器（Application Navigator）、内容区（Content Frame）
- 
+ ⓶应用导航器（Application Navigator）：搜索模块（Filter Navigator）、Favorites /ˈfeɪ.vər.ɪts/（收藏夹）、History（历史记录）
+ ⓷列表视图（List View）：过滤器（Filter）、面包屑导航（Breadcrumbs /ˈbrɛd.krʌmz/  ）、Inline Edit（行内编辑）
+ ⓸表单视图（Form View）：相关列表（Related Lists）、活动日志（Activity）
+ ⓹搜索功能（Global Search）：搜索结果按类别分组（如 Incident、User）
+ ⓺UI 区域结构（Next Experience）：横幅区（Banner Frame）、导航区（Navigation Pane）、内容区（Content Frame）
+
+　－列表操作
+ ▶列表的组成结构（List Components）：List Controls（列表控制）、Column Controls（列控制）、Record Controls（记录控制）
+ ▶列表的核心操作（List Operations）：过滤（Filter）、排序（Sort）、分组（Group by）、列控制（Show/Hide Columns）、行内编辑（Inline Edit）、批量操作（Bulk Actions）、导出（Export）、新建记录（New）
+ ▶列表自定义（List Customization）：列折行（Wrap column text）、行高压缩（Compact rows）、高亮当前行（Highlight active row）、双击编辑（Double click to edit）、现代单元格颜色（Modern cell coloring）
+ ▶Workspace 中的列表（UX List）：指定表（Table）、指定过滤条件（Filter/Condition）、指定显示列（Columns）、指定可见角色（Audience）
+ ▶
  　
