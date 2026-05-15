@@ -1,0 +1,2 @@
+实例间配置迁移与变更管理 (Application Lifecycle & Update Sets)： 在关于“更新集 (Update Sets)”的作用上出现了误判。更新集是 ServiceNow 中用于记录配置更改并将其从一个实例（如开发环境）迁移到另一个实例（如测试或生产环境）的核心工具，而非用于保存用户的个人首选项或界面主题。
+服务目录数据模型层级 (Service Catalog Hierarchy)： 混淆了服务目录提交后的记录层级。用户提交申请后，系统默认生成的最高层级记录是 Request (REQ)，其下包含 Requested Item (RITM)，而 Catalog Task (SCTASK) 是分配给具体执行人员的最底层具体任务。建议重新梳理 REQ -> RITM -> SCTASK 的三层结构。
